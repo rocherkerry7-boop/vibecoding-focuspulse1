@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusPulse – AI Focus & Mood App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>⚡ Welcome to FocusPulse</h1>
+    <p>Stay focused, track your mood, and get daily motivation to achieve your goals!</p>
+  </header>
+
+  <main>
+    <!-- SESSION CONTROLS -->
+    <section id="controls">
+      <h2>🎯 Session Controls</h2>
+      <button id="setTime">Set Duration</button>
+      <button id="startSession">Start</button>
+      <button id="pauseSession">Pause</button>
+      <button id="resumeSession">Resume</button>
+      <button id="resetSession">Reset</button>
+      <p id="timerDisplay">00:00</p>
+    </section>
+
+    <!-- MOOD SELECTOR -->
+    <section id="mood">
+      <h2>💫 Mood Selector</h2>
+      <select id="moodSelect">
+        <option value="">-- Select your mood --</option>
+        <option value="Calm">😌 Calm</option>
+        <option value="Motivated">🔥 Motivated</option>
+        <option value="Tired">😴 Tired</option>
+        <option value="Stressed">😫 Stressed</option>
+        <option value="Happy">😊 Happy</option>
+        <option value="Sad">😢 Sad</option>
+        <option value="Creative">🎨 Creative</option>
+      </select>
+      <button id="generatePlan">Generate Focus Plan</button>
+      <p id="moodResult"></p>
+    </section>
+
+   
+    <!-- THEME MODE --><section id="motivation">
+  <h2>🤖 AI Motivation</h2>
+  <p class="ai-subtext">Tap below to receive personalized encouragement.</p>
+  <button id="motivateButton">✨ Get Motivation</button>
+  <div id="aiGlow"></div>
+  <p id="motivationResult"></p>
+</section>
+    <section id="theme">
+      <h2>🌗 Theme Mode</h2>
+      <button id="lightTheme">☀️ Light Mode</button>
+      <button id="darkTheme">🌙 Dark Mode</button>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>📘 About FocusPulse</h2>
+      <p>
+        FocusPulse is a student-built web app created at Erwin Technical College using AI tools, HTML, CSS, and JavaScript. It helps students manage mood-based focus sessions, motivation, and productivity.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 FocusPulse – Built with ❤️ by Kerry Rocher using Vibecoding</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
